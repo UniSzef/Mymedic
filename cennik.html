@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cennik - My MedClinic</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <!-- NAWIGACJA -->
+    <nav class="navbar" role="navigation" aria-label="Główne menu">
+        <a href="index.html" class="logo">
+            <img src="https://mymedclinic.pl/wp-content/uploads/2025/10/cropped-MY-MEDCLINIC-Na-ciemne-tlo-01-02.png" alt="My MedClinic logo">
+            <span>My MedClinic</span>
+        </a>
+
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <ul class="nav-menu" role="menubar">
+            <li class="dropdown" role="none">
+                <a href="#" aria-haspopup="true" aria-expanded="false">Klinika</a>
+                <ul class="dropdown-menu" role="menu">
+                    <li role="none"><a href="klinika-o-nas.html" role="menuitem">O nas</a></li>
+                    <li role="none"><a href="klinika-zespol.html" role="menuitem">Nasz zespół</a></li>
+                    <li role="none"><a href="klinika-dla-pacjenta.html" role="menuitem">Dla pacjenta</a></li>
+                    <li role="none"><a href="klinika-praca.html" role="menuitem">Praca</a></li>
+                </ul>
+            </li>
+            <li role="none"><a href="kontakt.html">Kontakt</a></li>
+            <li role="none"><a href="oferta.html">Oferta</a></li>
+            <li role="none"><a href="cennik.html">Cennik</a></li>
+            <li role="none"><a href="pakiety.html">Pakiety</a></li>
+            <li role="none"><a href="bony.html">Bony</a></li>
+            <li role="none"><a href="blog.html">Blog</a></li>
+            <li role="none"><a href="https://www.znanylekarz.pl/placowki/my-medclinic-sp-z-o-o" class="cta" target="_blank" rel="noopener noreferrer">Umów wizytę</a></li>
+        </ul>
+    </nav>
+
+    <!-- PAGE HEADER -->
+    <div class="page-header">
+        <h1>Cennik</h1>
+        <p>Sprawdź nasze ceny usług medycznych</p>
+    </div>
+
+    <!-- PRICING SECTION -->
+    <section class="pricing-section">
+        <div class="pricing-filters">
+            <button data-category="all" class="active">Wszystkie</button>
+            <button data-category="psychiatria">Psychiatria</button>
+            <button data-category="bariatria">Bariatria</button>
+            <button data-category="ortopedia">Ortopedia</button>
+            <button data-category="psychologia">Psychologia</button>
+        </div>
+
+        <div class="pricing-grid">
+            <div class="pricing-card" data-category="psychiatria">
+                <h3>Konsultacja psychiatryczna</h3>
+                <div class="price">300 zł</div>
+                <p>Pierwsza wizyta u psychiatry z pełnym wywiadem</p>
+            </div>
+            <div class="pricing-card" data-category="psychiatria">
+                <h3>Kontrola psychiatryczna</h3>
+                <div class="price">200 zł</div>
+                <p>Wizyta kontrolna u psychiatry</p>
+            </div>
+            <div class="pricing-card" data-category="bariatria">
+                <h3>Konsultacja bariatryczna</h3>
+                <div class="price">250 zł</div>
+                <p>Pierwsza wizyta u specjalisty bariatrii</p>
+            </div>
+            <div class="pricing-card" data-category="bariatria">
+                <h3>Kontrola bariatryczna</h3>
+                <div class="price">150 zł</div>
+                <p>Wizyta kontrolna u specjalisty bariatrii</p>
+            </div>
+            <div class="pricing-card" data-category="ortopedia">
+                <h3>Konsultacja ortopedyczna</h3>
+                <div class="price">250 zł</div>
+                <p>Pierwsza wizyta u ortopedy</p>
+            </div>
+            <div class="pricing-card" data-category="ortopedia">
+                <h3>Kontrola ortopedyczna</h3>
+                <div class="price">150 zł</div>
+                <p>Wizyta kontrolna u ortopedy</p>
+            </div>
+            <div class="pricing-card" data-category="psychologia">
+                <h3>Konsultacja psychologiczna</h3>
+                <div class="price">200 zł</div>
+                <p>Pierwsza wizyta u psychologa</p>
+            </div>
+            <div class="pricing-card" data-category="psychologia">
+                <h3>Sesja terapeutyczna</h3>
+                <div class="price">150 zł</div>
+                <p>Pojedyncza sesja terapeutyczna</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- STOPKA -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Godziny Otwarcia</h3>
+                <p>Poniedziałek - Czwartek: 08:00 - 20:00</p>
+                <p>Piątek: 11:30 - 20:00</p>
+                <p>Sobota: 9:00 - 17:00</p>
+                <p>Niedziela: Zamknięte</p>
+            </div>
+            <div class="footer-section">
+                <h3>Kontakt</h3>
+                <p><a href="tel:+48530284285">Tel: 530 284 285</a></p>
+                <p><a href="mailto:kontakt@mymedclinic.pl">Email: kontakt@mymedclinic.pl</a></p>
+            </div>
+            <div class="footer-section">
+                <h3>Adres</h3>
+                <p>Juliana Fałata 12</p>
+                <p>85-309 Bydgoszcz</p>
+            </div>
+            <div class="footer-section">
+                <h3>Śledź Nas</h3>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook">FB</a>
+                    <a href="#" aria-label="Instagram">IG</a>
+                </div>
+                <p style="margin-top: 24px;"><a href="polityka.html">Polityka prywatności</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 My MedClinic. Wszystkie prawa zastrzeżone.</p>
+        </div>
+    </footer>
+
+    <!-- COOKIE BANNER -->
+    <div class="cookie-banner">
+        <div class="cookie-banner-content">
+            <div class="cookie-banner-text">
+                <p>Ta strona używa plików cookie, aby zapewnić najlepsze doświadczenie. Kontynuując przeglądanie, zgadzasz się na ich użycie.</p>
+            </div>
+            <div class="cookie-banner-actions">
+                <button class="btn-reject">Odrzuć</button>
+                <button class="btn-customize">Dostosuj</button>
+                <button class="btn-accept">Akceptuj</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- COOKIE MODAL -->
+    <div class="cookie-modal">
+        <div class="cookie-modal-content">
+            <h2>Ustawienia Plików Cookie</h2>
+            <p>Wybierz, które pliki cookie chcesz zaakceptować:</p>
+            <div class="cookie-options">
+                <div class="cookie-option">
+                    <label>
+                        <input type="checkbox" id="cookie-necessary" checked disabled>
+                        <span>Niezbędne (zawsze włączone)</span>
+                    </label>
+                </div>
+                <div class="cookie-option">
+                    <label>
+                        <input type="checkbox" id="cookie-analytics">
+                        <span>Analityka</span>
+                    </label>
+                </div>
+                <div class="cookie-option">
+                    <label>
+                        <input type="checkbox" id="cookie-marketing">
+                        <span>Marketing</span>
+                    </label>
+                </div>
+            </div>
+            <div class="cookie-modal-actions">
+                <button class="btn-cancel">Anuluj</button>
+                <button class="btn-save">Zapisz</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+
