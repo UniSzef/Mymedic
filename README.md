@@ -60,6 +60,38 @@ while preserving a premium dark UI style suitable for a medical brand.
 
 **Note:** The `partials/` folder contains reusable header and footer templates. These are currently embedded directly into each HTML file to ensure compatibility with local file access (no server required). For future updates, modify the partials and then update all HTML files accordingly.
 
+---
+
+## UI Guidelines
+
+- **Dark premium theme** with gold accents (`#c9a24d`)
+- Centralized design tokens using CSS variables
+- Reusable UI components (buttons, cards, sections)
+- Consistent spacing scale (4px, 8px, 12px, 16px, 24px, 32px, 40px, 56px, 80px, 120px)
+- Equal-height cards with CTA aligned to the bottom
+- Alternating section backgrounds for visual depth
+
+---
+
+## Navigation
+
+- **Sticky header** with fixed positioning
+- **Desktop dropdown menus** (hover + keyboard focus)
+- **Mobile fullscreen menu** with overlay
+- **ESC key** and overlay click close the menu
+- Full keyboard navigation support with ARIA attributes
+
+---
+
+## Buttons & Cards
+
+- Unified button height (`min-height: 48px`) and padding
+- CTA buttons aligned to the bottom of cards using Flexbox
+- Cards adapt to content length without breaking layout consistency
+- `.btn--card` variant for consistent button width in card contexts
+
+---
+
 ## Features
 
 ### Cookie Banner
