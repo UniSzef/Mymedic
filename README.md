@@ -1,0 +1,2 @@
+# Mymedic
+typical clean wizytówka
